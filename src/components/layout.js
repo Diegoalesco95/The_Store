@@ -19,7 +19,7 @@ const Layout = ({ children }) => (
       <div>
         <main>{children}</main>
         <Footer>
-          © {new Date().getFullYear()}, Built with ❤ in
+          © {new Date().getFullYear()}, elaborado con ❤ en
           <a href='https://www.Platzi.com'>Platzi</a>
         </Footer>
       </div>

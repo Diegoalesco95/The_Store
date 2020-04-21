@@ -12,7 +12,7 @@ export default function thanks() {
         <p>Espero que disfrutes tu swag, lúcelo con orgullo</p>
         <p>¡Te esperamos de vuelta, no pares de aprender!</p>
         <br />
-        <span rol='img' arial-label='emoji'>
+        <span role='img' arial-label='emoji'>
           ❤
         </span>
         <br />
