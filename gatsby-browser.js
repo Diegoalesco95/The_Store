@@ -14,6 +14,6 @@ const { CartProvider } = require('./src/context');
 exports.wrapRootElement = ({ element }) => (
   <CartProvider>
     <GlobalStyles />
-    <Layout>{element}</Layout>;
+    <Layout>{element}</Layout>
   </CartProvider>
 );

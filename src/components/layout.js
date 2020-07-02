@@ -15,13 +15,13 @@ const Layout = ({ children }) => (
   <>
     <Header />
     <Content>
-      <div>
-        <main>{children}</main>
-        <Footer>
+      <main>{children}</main>
+      <Footer>
+        <span>
           © {new Date().getFullYear()}, elaborado con ❤ en
           <a href='https://www.Platzi.com'>Platzi</a>
-        </Footer>
-      </div>
+        </span>
+      </Footer>
     </Content>
   </>
 );

@@ -17,19 +17,16 @@ export const above = Object.keys(size).reduce((acc, label) => {
 }, {});
 
 export const GlobalStyles = createGlobalStyle`
-  .___gatsby{
-    position: absolute;
-  }
-  main{
+  main {
     padding-top: 3.5rem;
   }
   ${above.medium`
-   main{
+    main {
       padding-top: calc(3.5rem - 100vh);
     }
-    `}
+  `}
   ${above.large`
-   main{
+    main {
       padding-top: calc(4.5rem - 100vh);
     }
   `}
