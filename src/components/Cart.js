@@ -22,7 +22,7 @@ export default function Cart() {
     const { error } = await stripe.redirectToCheckout({
       items: cart.map(({ sku, quantity }) => ({ sku, quantity })),
       successUrl: process.env.SUCCESS_REDIRECT,
-      cancelUrl: 'http://localhost:8000/cancelled',
+      cancelUrl: process.env.CANCEL_REDIRECT,
     });
     if (error) {
       throw error;

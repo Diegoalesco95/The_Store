@@ -17,7 +17,7 @@ export default function thanks() {
         </span>
         <br />
         <Link to='/'>
-          <Button>Vovler al Catálogo</Button>
+          <Button>Volver al Catálogo</Button>
         </Link>
       </Purchase>
     </div>

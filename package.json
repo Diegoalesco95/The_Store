@@ -18,7 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "gatsby": "^2.20.28",
+    "gatsby": "^2.24.7",
     "gatsby-image": "^2.3.4",
     "gatsby-plugin-manifest": "^2.3.6",
     "gatsby-plugin-offline": "^3.1.4",
